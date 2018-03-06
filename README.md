@@ -31,3 +31,4 @@ There is a [detailed answer](http://stackoverflow.com/a/15378816/390643) on stac
     set t_Co=256
   endif
   ```
+See https://joshldavis.com/2014/04/05/vim-tab-madness-buffers-vs-tabs/ for info on buffers and tabs
