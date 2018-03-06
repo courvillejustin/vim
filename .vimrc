@@ -1,3 +1,4 @@
+.vimrc                                                                                                                                                                                                                               buffers
 " ~/.vimrc
 "
 
@@ -19,6 +20,8 @@ Plugin 'scrooloose/nerdtree.git'
 
 Plugin 'dracula/vim'
 
+Plugin 'vim-airline/vim-airline'
+
 " stop - all plugins above
 call vundle#end()
 
@@ -38,3 +41,9 @@ endif
 
 syntax on
 color dracula
+
+" Enable the list of buffers
+let g:airline#extensions#tabline#enabled = 1
+"
+" " Show just the filename
+let g:airline#extensions#tabline#fnamemod = ':t'
